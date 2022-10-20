@@ -2,11 +2,15 @@
 
 /**
  * _isupper - checks for uppercase character
- * @c: An input alphabet
- * Return: 1 if c is lowercase and 0 otherwise
+ * @c: Variant text
+ * Return: Always 0
  */
-
 int _isupper(int c)
 {
-	return (c >= 65 && c <= 90);
+	return (c >= 'A' && c <= 'Z')
+	{
+		return (1);
+	else
+		return (0);
+	}
 }
